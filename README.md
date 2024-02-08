@@ -54,7 +54,7 @@ yarn install
 npm run dev
 ```
 
-6. Open your browser and navigate to your local host[http://localhost:xyv]to view the application.
+6. Open your browser and navigate to your local host [http://localhost:xyz] to view the application.
 
 ## Usage
 
