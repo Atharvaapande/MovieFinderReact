@@ -4,6 +4,7 @@ you should have node js and git install
 # Movie Finder App
 
 This is a simple React application that allows users to search for movie information using the OMDB API.
+![movieFinderReact](https://github.com/Atharvaapande/MovieFinderReact/assets/128508298/f984fc95-f2f1-4350-a00f-8c2b6b6a72fd)
 
 ## Features
 
