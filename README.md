@@ -1,6 +1,5 @@
-Certainly! Below is a suggested README section for your React application:
-
----
+Prerequsite - 
+you should have node js and git install
 
 # Movie Finder App
 
