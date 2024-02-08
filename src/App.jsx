@@ -18,16 +18,18 @@ function App() {
   const [showInitial, setShowInitial] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
-  let input = document.querySelector('#searchBar')
-
+  
   const keyEnter = (e) =>{
     console.log(e)
     if(e.key==='Enter'){
       handleSearch();
     }
   }
-  const handleSearch = () => {
-    const query = "https://www.omdbapi.com/?apikey=86390d5d&t=" + input.value;
+  const handleSearch = async() => {
+    let input = document.querySelector('#searchBar')
+    let userQuery = input.value;
+    console.log(userQuery)
+    let query = "https://www.omdbapi.com/?apikey=86390d5d&t=" + userQuery;
     fetch(query)
       .then((response) => {
         if (!response.ok) {
