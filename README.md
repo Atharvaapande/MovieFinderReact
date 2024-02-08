@@ -1,6 +1,5 @@
-Certainly! Below is a suggested README section for your React application:
-
----
+Prerequsite - 
+you should have node js and git install
 
 # Movie Finder App
 
@@ -55,7 +54,7 @@ yarn install
 npm run dev
 ```
 
-6. Open your browser and navigate to your local host[http://localhost:xyv]to view the application.
+6. Open your browser and navigate to your local host [http://localhost:xyz] to view the application.
 
 ## Usage
 
