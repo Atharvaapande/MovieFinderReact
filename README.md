@@ -55,6 +55,13 @@ npm run dev
 ```
 
 6. Open your browser and navigate to your local host [http://localhost:xyz] to view the application.
+7. To make the application production ready do the following - 
+a)In vs code or any IDE open terminal in the folder where the project is stored
+b)run
+```bash
+npm run build
+```
+c)this will generate dist file and done, now you can deploy this dist file, in my case i used netlify, a free hosting platform  
 
 ## Usage
 
