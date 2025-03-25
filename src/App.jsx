@@ -29,7 +29,7 @@ function App() {
     let input = document.querySelector('#searchBar')
     let userQuery = input.value;
     console.log(userQuery)
-    let query = "https://www.omdbapi.com/?apikey=86390d5d&t=" + userQuery;
+    let query = "https://www.omdbapi.com/?apikey=********&t=" + userQuery;
     fetch(query)
       .then((response) => {
         if (!response.ok) {
